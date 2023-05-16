@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #0e1116;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background text-grayscale-100;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
